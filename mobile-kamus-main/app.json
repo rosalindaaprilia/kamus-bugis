@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Kamus Bugis Indonesia",
+    "slug": "bugis",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon1024.png",
+    "userInterfaceStyle": "light",
+    "owner": "frasydiorganization",
+    "splash": {
+      "image": "./src/assets/Splash2.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#013298"
+    },
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "translucent": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "id.ac.unismuh.id.kamus.bugis.app"
+    },
+    "android": {
+      "icon": "./src/assets/icon1024.png",
+      "adaptiveIcon": {
+        "monochromeImage": "./src/assets/icon1024.png",
+        "foregroundImage": "./src/assets/icon1024.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "id.ac.unismuh.id.kamus.bugis.app"
+    },
+    "web": {
+      "favicon": "./assets/icon3.png"
+    },
+    "scheme": "kamugbugis",
+    "extra": {
+      "eas": {
+        "projectId": "97ab3b6d-a792-4d3b-bb3e-2b9bf8757d27"
+      }
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "Frasydi2"
+        }
+      ]
+    ],
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/97ab3b6d-a792-4d3b-bb3e-2b9bf8757d27"
+    }
+  }
+}
